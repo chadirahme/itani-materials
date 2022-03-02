@@ -148,20 +148,30 @@
         <div class="col-md-6">
   
           <div style="overflow:hidden;height:500px;width:600px;">
+            <agm-map [latitude]="33.882701" [longitude]="35.492547" [zoom]="14">
+              <agm-marker [latitude]="33.882701" [longitude]="35.492547"></agm-marker>
+            </agm-map>
   
-            <div id="gmap_canvas" style="height:500px;width:600px;"></div>
+            <!--<div #gmap style="width:100%;height:400px"></div>-->
   
-            <style>#gmap_canvas img {
+            <!--<div id="gmap_canvas" style="height:500px;width:600px;"></div>-->
   
-              max-width: none !important;
+            <!--<style>#gmap_canvas img {-->
   
-              background: none !important
+              <!--max-width: none !important;-->
   
-            }</style>
+              <!--background: none !important-->
   
-            <a class="google-map-code" href="http://itaniformaterials.com/" id="get-map-data">ITANI</a></div>
+            <!--}</style>-->
+  
+            <!--<a class="google-map-code" href="http://itaniformaterials.com/" id="get-map-data">ITANI</a>-->
+  
+          </div>
   
           <!-- <script type="text/javascript">
+  
+  
+  
            </script>-->
   
         </div>
@@ -249,7 +259,11 @@
   
   
       /* $("#contactForm").validate({
+  
+  
+  
        errorLabelContainer: $("#contactForm div.error")
+  
        });*/
   
   
@@ -257,7 +271,9 @@
       //alert( $('#contactForm')[0].checkValidity()) ;
   
       /* $.validate({
+  
        modules : 'date, security'
+  
        });*/
   
   
@@ -344,3 +360,4 @@
     // ]]>
   
   </script>
+  

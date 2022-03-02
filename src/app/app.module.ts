@@ -1,3 +1,4 @@
+import { AgmCoreModule } from '@agm/core';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgImageSliderModule } from 'ng-image-slider';
@@ -41,6 +42,9 @@ import { PedrolloComponent } from './pedrollo/pedrollo.component';
     BrowserModule,
     AppRoutingModule,
     NgImageSliderModule,
+    AgmCoreModule.forRoot({
+  
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
